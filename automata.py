@@ -1,4 +1,7 @@
 class FinateStateMachine:
+    """
+    Credit to: https://www.youtube.com/watch?v=32bC33nJR3A
+    """
     states: set[int]
     initial_state: int
     final_states: set[int]
