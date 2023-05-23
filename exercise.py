@@ -1,9 +1,9 @@
 from automata import FinateStateMachine
 
 def main():
-    states = {0, 1, 2, 3, 4, 5}
+    states = {0, 1, 2, 3, 4}
     initial_state = 0
-    final_states = {0, 1, 2, 3, 4}
+    final_states = {0, 1, 2, 3}
     transitions = {
         (0, 'C'): 0,
         (0, 'P'): 1,
